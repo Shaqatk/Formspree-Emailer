@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emailer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+   <div class="container">
+    <form method="POST" action="https://formspree.io/sheharyarhaq@yahoo.com">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="input" name="name"class="form-control" placeholder="Enter name">
+  </div>
+    
+  <div class="form-group">
+    <label for="InputEmail1">Email address</label>
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  
+  <div class="form-group">
+    <label for="textarea">Message</label>
+    <textarea name="message" class="form-control" id="textarea" rows="3" placeholder="Enter your message....."></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary form-control">Send</button>
+</form>
+</div>
+</body>
+</html>
